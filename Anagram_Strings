@@ -15,6 +15,7 @@ Constraints:
 s1 and s2 consist of lowercase English letters.   */
 
 
+import java.util.Scanner;
 import java.util.*;
 public class Main {
 
