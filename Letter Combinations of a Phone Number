@@ -1,0 +1,70 @@
+/* Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
+A mapping of digit to letters (just like on the telephone buttons). Note that 1 does not map to any letters.
+Example 1:
+Input: digits = "23"
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+Example 2:
+Input: digits = ""
+Output: []
+
+Example 3:
+Input: digits = "2"
+Output: ["a","b","c"]
+ 
+
+Constraints:
+0 <= digits.length <= 4
+digits[i] is a digit in the range ['2', '9'].    */
+
+__________________________________________________________________________________________
+import java.util.*;
+import java.util.Scanner;
+class Main{
+   public static void main(String[] args)
+   {   Scanner sc=new Scanner(System.in);
+       System.out.println("enter string");
+       String digits=sc.nextLine();
+       System.out.println(letterCombinations(digits));
+   }
+public List<String> letterCombinations(String digits) {
+      if(digits.length() == 0){
+        return Collections.emptyList();
+      }
+      if(digits.length() == 1){
+        return getCharacter(digits);
+      }
+      List<String> sequences = new ArrayList<>();
+      String currDigit = digits.substring(0,1);
+      String remainingDigits = digits.substring(1,digits.length());
+      for(var eachChar: getCharacter(currDigit)){
+        for(var eachSeq:letterCombinations(remainingDigits)){
+          String seq = eachChar.concat(eachSeq);
+          seq.add(seq);
+        }
+      }
+      return seq;
+  }
+
+  List<String> getCharacter(String digit){
+    switch (digit) {
+      case "2":
+        return List.of("a", "b", "c");
+      case "3":
+        return List.of("d", "e", "f");
+      case "4":
+        return List.of("g", "h", "i");
+      case "5":
+        return List.of("j", "k", "l");
+      case "6":
+        return List.of("m", "n", "o");
+      case "7":
+        return List.of("p", "q", "r", "s");
+      case "8":
+        return List.of("t", "u", "v");
+      case "9":
+        return List.of("w", "x", "y", "z");
+    }
+    return Collections.emptyList();
+  }
+  }
