@@ -28,43 +28,35 @@ class Main{
        System.out.println(letterCombinations(digits));
    }
 public List<String> letterCombinations(String digits) {
-      if(digits.length() == 0){
-        return Collections.emptyList();
-      }
-      if(digits.length() == 1){
-        return getCharacter(digits);
-      }
-      List<String> sequences = new ArrayList<>();
-      String currDigit = digits.substring(0,1);
-      String remainingDigits = digits.substring(1,digits.length());
-      for(var eachChar: getCharacter(currDigit)){
-        for(var eachSeq:letterCombinations(remainingDigits)){
-          String seq = eachChar.concat(eachSeq);
-          seq.add(seq);
-        }
-      }
-      return seq;
-  }
-
-  List<String> getCharacter(String digit){
-    switch (digit) {
-      case "2":
-        return List.of("a", "b", "c");
-      case "3":
-        return List.of("d", "e", "f");
-      case "4":
-        return List.of("g", "h", "i");
-      case "5":
-        return List.of("j", "k", "l");
-      case "6":
-        return List.of("m", "n", "o");
-      case "7":
-        return List.of("p", "q", "r", "s");
-      case "8":
-        return List.of("t", "u", "v");
-      case "9":
-        return List.of("w", "x", "y", "z");
+        HashMap<Character, String[]> map = new HashMap<>();
+        
+        map.put('2', new String[]{"a", "b", "c"});
+        map.put('3', new String[]{"d", "e", "f"});
+        map.put('4', new String[]{"g", "h", "i"});
+        map.put('5', new String[]{"j", "k", "l"});
+        map.put('6', new String[]{"m", "n", "o"});
+        map.put('7', new String[]{"p", "q", "r", "s"});
+        map.put('8', new String[]{"t", "u", "v"});
+        map.put('9', new String[]{"w", "x", "y", "z"});
+        
+        List<String> ans  = new ArrayList<>();
+        dfs_(map, digits, 0, ans, new StringBuilder());    
+        
+        return ans;
     }
-    return Collections.emptyList();
-  }
+    
+    public void dfs_(HashMap<Character, String[]> map, String s, int index, List<String> ans, StringBuilder curr){
+        if(index == s.length()){
+            if(index != 0){
+                ans.add(curr.toString());
+            }
+            return;
+        }
+        
+        for(String ch : map.get(str.charAt(index))){
+            curr.append(ch);
+            dfs(map, s, index + 1, ans, curr);
+            curr.deleteCharAt(curr.length() - 1);
+        }
+    }
   }
