@@ -12,7 +12,7 @@ public class Min_steps_to_one {
 		System.out.println("ans = " + x);
 	}
 
-	public static int min_steps(int n, int[] dp) {
+	public static int min_steps(int n, int[] dp) { 
 		// base case
 		if (n == 1)
 			return 0;
