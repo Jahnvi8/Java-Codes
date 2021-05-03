@@ -48,7 +48,7 @@ public class Main {
         }
         for(int i=0;i<256;i++)
         {
-        	if(ar1[i] != ar2[i]) 
+        	if(ar1[i] != ar2[i])  
         	{
         		ana=false;
         		break;
