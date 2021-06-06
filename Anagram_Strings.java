@@ -1,7 +1,7 @@
 /*  Write a function to check whether two given strings are anagram of each other or not.
 An anagram of a string is another string that contains the same characters, only the order  of characters can be different. 
 return true if s1 is an anagram of s2, and false otherwise.
-
+ 
 Example 1:
 Input: s = "anagram", t = "nagaram"
 Output: true
