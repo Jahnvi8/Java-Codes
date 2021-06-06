@@ -2,7 +2,7 @@
 return the number of possible combinations that add up to target.
 The answer is guaranteed to fit in a 32-bit integer.
 
- Example 1:
+ Example 1: 
 Input: nums = [1,2,3], target = 4
 Output: 7
 Explanation:
