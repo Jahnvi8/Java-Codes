@@ -5,7 +5,7 @@
  * You are given a date.
  You just need to write the method, , which returns the day on that date. To simplify your task, we have provided a portion of the code in the editor.
  * <p>
- * For example, if you are given the date , the method should return  as the day on that date.
+ * For example, if you are given the date , the method should return  as the day on that date. 
  * <p>
  * image
  * <p>
