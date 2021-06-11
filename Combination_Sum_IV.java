@@ -32,7 +32,7 @@ class Main {
         
         if(nums == null || nums.length < 1)return 0;
         int[] dp = new int[target+1];
-        //dp[0] = 0;  
+        //dp[0] = 0;   
         for(int i=1;i<=target;i++){
             
             for(int j=0;j<nums.length;j++){
