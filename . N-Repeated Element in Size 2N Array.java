@@ -26,7 +26,7 @@ class Solution {
         
         for(int i:nums){
             if(hm.containsKey(i)) return i;
-            else
+            else 
             hm.put(i,1);
         }
         return 0;
