@@ -36,6 +36,6 @@ class Main {
                 nums[i] += diff;
             }
         }
-        return count;
+        return count; 
     }
 }
