@@ -37,7 +37,7 @@ class Main {
             }
             if (val) c++;
         }
-
+ 
         return c;
     }
 }
