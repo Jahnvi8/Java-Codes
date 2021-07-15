@@ -26,7 +26,7 @@ class Solution {
         
      for(int i=0;i<stones.length();i++){
          char c=stones.charAt(i);
-         if(hm.containsKey(c))
+         if(hm.containsKey(c)) 
          hm.put(c,hm.get(c)+1);
          else
              hm.put(c,1);
