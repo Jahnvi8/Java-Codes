@@ -39,7 +39,7 @@ All elements of candidates are distinct.
 _____________________________________________________________________________________________________________________
 class Main {
    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-    List<List<Integer>> rst = new ArrayList<>();
+    List<List<Integer>> rst = new ArrayList<>(); 
     if(candidates == null || candidates.length == 0){
         return rst;
     }
