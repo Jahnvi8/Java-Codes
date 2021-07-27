@@ -7,7 +7,7 @@
 // Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.
   
 // Example 2:
-// Input: arr = [1,2]
+// Input: arr = [1,2] 
 // Output: false
   
 // Example 3:
