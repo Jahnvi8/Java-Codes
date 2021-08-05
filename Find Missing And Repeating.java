@@ -72,7 +72,7 @@ public:
              else if(arr[i]==off)  
             {  dup=off;
               miss=on;
-              
+               
             } 
          
          }
