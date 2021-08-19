@@ -30,7 +30,7 @@
 // 1 ≤ A, B ≤ 106
 ________________________________________________________________________________________________________________________________________________
 // { Driver Code Starts
-//Initial Template for C++
+//Initial Template for C++ 
 
 #include<bits/stdc++.h>
 using namespace std;
