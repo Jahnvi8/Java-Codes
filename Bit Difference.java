@@ -7,7 +7,7 @@
 // Explanation:
 // A  = 01010
 // B  = 10100
-// As we can see, the bits of A that need 
+// As we can see, the bits of A that need  
 // to be flipped are 01010. If we flip 
 // these bits, we get 10100, which is B.
 // Example 2:
