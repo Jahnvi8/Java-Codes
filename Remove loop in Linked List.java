@@ -18,7 +18,7 @@
 //      |____|    
 // A loop is present. If you remove it 
 // successfully, the answer will be 1. 
-
+ 
 // Example 2:
 
 // Input:
