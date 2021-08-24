@@ -2,7 +2,7 @@
 // You are given  arrays  and , each of the size . Each element of these arrays is either a positive integer or . The total number of  that can appear over these  arrays are  and .
 
 // Now, you need to find the number of ways in which we can replace each  with a non-negative integer, such that the sum of both of these arrays is equal.
-
+ 
 // Input format
 
 // First line: An integer 
