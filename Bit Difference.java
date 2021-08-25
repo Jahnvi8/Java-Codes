@@ -5,7 +5,7 @@
 // Input: A = 10, B = 20
 // Output: 4
 // Explanation:
-// A  = 01010
+// A  = 01010 
 // B  = 10100
 // As we can see, the bits of A that need  
 // to be flipped are 01010. If we flip 
