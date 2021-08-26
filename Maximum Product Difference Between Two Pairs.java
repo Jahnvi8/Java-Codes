@@ -7,7 +7,7 @@
 
  
 
-// Example 1:
+// Example 1: 
 
 // Input: nums = [5,6,2,7,4]
 // Output: 34
