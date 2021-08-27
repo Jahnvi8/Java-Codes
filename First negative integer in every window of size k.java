@@ -106,7 +106,7 @@ class Compute {
                 i++;
                 j++;
             }
-            else j++;
+            else j++; 
         }
         return ar;
     }
