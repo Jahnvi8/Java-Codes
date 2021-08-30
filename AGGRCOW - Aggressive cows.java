@@ -99,7 +99,7 @@ import java.util.StringTokenizer;
             long ret = 0;
             byte c = read();
             while (c <= ' ')
-                c = read();
+                c = read(); 
             boolean neg = (c == '-');
             if (neg)
                 c = read();
