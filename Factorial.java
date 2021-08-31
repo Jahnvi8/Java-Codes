@@ -35,7 +35,7 @@ import java.util.StringTokenizer;
  class TestClass  {
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
-        private DataInputStream din;
+        private DataInputStream din; 
         private byte[] buffer;
         private int bufferPointer, bytesRead;
  
