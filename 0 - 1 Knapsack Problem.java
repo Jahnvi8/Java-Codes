@@ -5,7 +5,7 @@
 
 // Example 1:
 
-// Input:
+// Input: 
 // N = 3
 // W = 4
 // values[] = {1,2,3}
