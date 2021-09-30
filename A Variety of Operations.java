@@ -4,7 +4,7 @@
 
 // add number k to both a and b, or
 // add number k to a and subtract k from b, or
-// add number k to b and subtract k from a.
+// add number k to b and subtract k from a. 
 // Note that after performing operations, numbers a and b may become negative as well.
 
 // William wants to find out the minimal number of operations he would have to perform to make a equal to his favorite number c and b equal to his second favorite number d.
