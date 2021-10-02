@@ -4,7 +4,7 @@
 
 // Now Anton wonders, who won more games, he or Danik? Help him determine this.
 
-// Input
+// Input 
 // The first line of the input contains a single integer n (1 ≤ n ≤ 100 000) — the number of games played.
 
 // The second line contains a string s, consisting of n uppercase English letters 'A' and 'D' — the outcome of each of the games. 
