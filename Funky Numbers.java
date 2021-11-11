@@ -1,6 +1,6 @@
 // As you very well know, this year's funkiest numbers are so called triangular numbers (that is, integers that are representable as ,
 //   where k is some positive integer), and the coolest numbers are those that are representable as a sum of two triangular numbers.
-
+ 
 // A well-known hipster Andrew adores everything funky and cool but unfortunately, he isn't good at maths. Given number n, help him define whether
 //   this number can be represented by a sum of two triangular numbers (not necessarily different)!
 
