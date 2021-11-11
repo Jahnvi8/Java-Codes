@@ -24,7 +24,7 @@
 // 4
 // 3 1 2 3
 // 2 2 3
-// outputCopy
+// outputCopy 
 // Oh, my keyboard!
 // Note
 // In the first sample, Little X can pass levels [1 2 3], and Little Y can pass level [2 4], so they can pass all the levels both.
