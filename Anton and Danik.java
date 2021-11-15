@@ -2,7 +2,7 @@
 
 // Once they have played n games in a row. For each game it's known who was the winner — Anton or Danik. None of the games ended with a tie.
 
-// Now Anton wonders, who won more games, he or Danik? Help him determine this.
+// Now Anton wonders, who won more games, he or Danik? Help him determine this. 
 
 // Input 
 // The first line of the input contains a single integer n (1 ≤ n ≤ 100 000) — the number of games played.
